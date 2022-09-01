@@ -3,7 +3,7 @@ import "./Header.css";
 const Header = () => {
   return (
     <div className="header">
-      <span className="title">🎬 Entertainment Hub 🎥</span>
+      <span className="title">☠️ The Pirates Bay ⚓</span>
     </div>
   );
 };
