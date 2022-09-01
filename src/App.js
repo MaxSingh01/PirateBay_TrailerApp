@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
-import { Container } from "@material-ui/core";
 import Header from "./components/Header/Header";
 import SimpleBottomNavigation from "./components/MainNav/MainNav";
 import Movie from "./Pages/Movie/Movie";

@@ -56,21 +56,23 @@ const Search = () => {
           </Button>
         </div>
         <Tabs
+          TabIndicatorProps={{
+            style: {
+              backgroundColor: "white",
+            },
+          }}
           value={type}
           indicatorColor="primary"
           textColor="primary"
           onChange={(event, newValue) => {
             setType(newValue);
-            {
-              console.log(newValue);
-            }
             setPage(1);
           }}
           className="tabs"
           aria-label="disabled tabs example"
         >
-          <Tab style={{ width: "50%" }} label="Search Movies" />
           <Tab style={{ width: "50%" }} label="Search Series" />
+          <Tab style={{ width: "50%" }} label="Search Movies" />
         </Tabs>
       </StylesProvider>
       <div className="trending">
