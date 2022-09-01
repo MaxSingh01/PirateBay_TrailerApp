@@ -1,9 +1,6 @@
-
-
 .page {
   display: grid;
-  grid-template-columns: repeat(7,1fr);
-
+  grid-template-columns: repeat(7, 1fr);
 }
 .pageTitle {
   grid-column: 1/-1;
@@ -11,7 +8,7 @@
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
   font-size: 3rem;
-  padding: .4rem;
+  padding: 0.4rem;
   border-radius: 5rem;
   color: #fff;
 }
@@ -22,6 +19,9 @@
   padding-top: 12rem;
   padding-bottom: 9rem;
 }
+.genre {
+  padding: 2rem  6rem;
+}
 @media only screen and (max-width: 37.5em) {
   /* .app {
     padding-top: 12rem;
@@ -29,7 +29,11 @@
   /* .pageTitle{
     font-size: 3rem;
   } */
+  .genre {
+    padding: 2rem  4rem;
+  }
 }
-.MuiSvgIcon-root{
-    height: 2em;
+.MuiSvgIcon-root {
+  height: 2em;
 }
+
