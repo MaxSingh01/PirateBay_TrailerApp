@@ -71,8 +71,8 @@ const Search = () => {
           className="tabs"
           aria-label="disabled tabs example"
         >
-          <Tab style={{ width: "50%" }} label="Search Series" />
           <Tab style={{ width: "50%" }} label="Search Movies" />
+          <Tab style={{ width: "50%" }} label="Search Series" />
         </Tabs>
       </StylesProvider>
       <div className="trending">
